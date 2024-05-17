@@ -330,7 +330,9 @@ footer div{
     }
     .allcontent{
         padding-bottom: 1rem;
+        padding-top: 1rem;
     }
+
     #main-content{
         margin-right: 10%;
         margin-top: 2rem;
