@@ -1,0 +1,34 @@
+
+
+
+
+
+#main-content {
+    animation: fadeInFromLeft 4s; 
+}
+
+#niña {
+    animation: fadeInFromRight 4s; 
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-200px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

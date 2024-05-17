@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+
+}
+
+nav i{
+    display: none;
+    font-size: 1.5rem;
+}
+
+
+#logIn-button{
+    color: #96BB7C;
+    background-color: none;
+    border: 0px;
+    text-decoration: none;
+}
+
+#join-us{
+    text-decoration: none;
+    background-color: #96BB7C;
+    color: #FFFF;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-left: 2em;
+}
+
+.section2{
+    background-color: #DDF4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section2 div h5{
+    color: #96BB7C;
+}
+
+h1{
+    font-size: 4.3rem;
+}
+
+.section2 div h4{
+    color: #737373
+}
+
+
+#Get-now{
+    background-color: #96BB7C;
+    color: #FFFF;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#Learn-more{
+    color: #96BB7C;
+    padding: 1rem;
+    border: 1px solid #96BB7C;
+    border-radius: 5px;
+    
+}
+
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%; 
+    width: 30%;
+    
+}
+
+#main-content h5{
+    font-size: 1rem;
+}
+
+#main-content h4{
+    font-size: 1.3rem;
+}
+
+#main-content *{
+    margin-top: 1.3rem ;
+}
+
+#buttons{
+    margin-top: 3rem;
+    
+}
+
+#section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#section3 p{
+    
+    font-size: 3.1rem;
+    color: #96BB7C;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 3.1rem;
+    
+}
+
+ul li{
+    padding: 1.5rem;
+    text-align: center;
+    
+}
+
+ul li h5{
+    font-size: 1.3rem;
+}
+
+
+#section4{
+    background-color: #FFF2F3;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cards{
+    display: flex;
+    margin-top: 3.1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cards div{
+    background-color: #FFFF;
+    margin-right: 20px;
+    height: 16.8rem;
+    width: 20.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#cards div *{
+    margin: 1.3rem;
+}
+
+.allcontent div p{
+    color: #737373;
+    margin-bottom: 3.3rem;
+
+}
+
+.allcontent div img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.allcontent h2{
+    font-size: 2.5rem;
+}
+
+#cards div h5{
+    border-bottom: 1px solid #E74040;
+    padding-bottom: 1rem ;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  0px 130px;
+    flex-wrap: wrap;
+}
+footer i{
+    color: #96BB7C;
+    font-size: 1.56rem;
+    margin: 0 1.56rem;
+}
+
+footer p{
+    color: #737373;
+    margin-left: 4.37rem;
+}
+
+
+
+footer div{
+    margin-right: 4.37rem;
+}
+
+
+@media (max-width: 1170px) {
+
+    #main-content{
+        width: 100%;
+        justify-content: center;
+    }
+
+    #niña{
+        display: flex;
+        justify-content: center;
+    }
+    #niña img{
+        width:  70%;
+        height: 50%;
+        margin-top: 2rem;
+    }
+
+    #section3{
+        justify-content: center;
+        margin: auto;
+    }
+    ul{
+        margin-left: 0;
+
+    }
+    li{
+        margin-top: 3rem;
+    }
+
+
+
+    #section4{
+        height: auto;
+    }
+
+    .allcontent h2{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #cards{
+        margin:3rem 0rem ;
+    }
+
+
+    #cards div{
+        margin: 0 20px;
+    } 
+
+
+    #cards div, #cards div h2{
+        margin-top: 2rem;
+    }
+    footer{
+        margin: 0;
+    }
+    footer div{
+        display: flex;
+        
+    }
+    footer p{
+        margin-left: 0;
+
+    }
+}
+
+
+@media (max-width: 560px){
+    
+    h1{
+        font-size: 3rem;
+    }
+
+    ul li{
+        margin: 0;
+    }
+    footer div{
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 416px){
+
+    footer p{
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 374px){
+    #navbar-content{
+        display: none;
+    }
+    nav i{
+        display: flex;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    #section4{
+        display: block;
+    }
+    .allcontent{
+        padding-bottom: 1rem;
+    }
+    #main-content{
+        margin-right: 10%;
+        margin-top: 2rem;
+    }
+}
